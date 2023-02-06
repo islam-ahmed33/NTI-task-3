@@ -1,0 +1,139 @@
+main {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    font-family: arial;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    font-size: 32px;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 150px;
+    vertical-align: middle;
+}
+
+nav {
+    width: 600px;
+    height: 60px;
+    float: right;
+    margin-top: 70px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    float: left;
+    line-height: 60px;
+}
+
+.btns {
+    width: 300px;
+    height: 60px;
+    float: right;
+    margin-top: 70px;
+    color: white;
+}
+
+.btns div:first-of-type {
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    float: right;
+    background: red;
+    margin: 0 10px;
+}
+
+.btns div:last-of-type {
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    float: right;
+    background: red;
+    margin: 0 10px;
+}
+section:first-of-type{
+    width: 100%;
+    height: 700px;
+    background: url(../images/section1.jpg) no-repeat center/cover #888;
+    background-blend-mode: multiply;
+    margin:10px auto;
+}
+.section-inner:first-of-type{
+    width: 60%;
+    margin: auto;
+    padding-top: 300px;
+    background: #8883;
+
+    color:white
+}
+.section-inner:first-of-type h1{
+    font-size:60px;
+    text-align: center;
+}
+section:nth-of-type(2){
+    width: 100%;
+    height: 900px;
+    background: url(../images/section2.jpg) no-repeat center/cover;
+    background-blend-mode: multiply;
+    margin:10px auto;
+}
+section:nth-of-type(3){
+    width: 100%;
+    height: 800px;
+    background: url(../images/section3.jpg) no-repeat center/cover;
+    background-blend-mode: multiply;
+    margin:10px auto;
+}
+section:nth-of-type(4){
+    width: 100%;
+    height: 500px;
+    /* background:#888; */
+    margin:10px auto;
+}
+
+
+
+
+.section-inner4{
+    height: 60%;
+    padding-top: 100px;
+}
+figure{
+    width: 20%;
+    float: left;
+    margin:0 calc(20% /8);
+}
+figcaption{
+    text-align: center;
+    font-size: 32px;
+}
+footer{
+    text-align: center;
+    background: #fc8;
+}
